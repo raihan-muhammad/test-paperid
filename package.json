@@ -1,0 +1,31 @@
+{
+  "name": "paperid",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "eslint": "8.48.0",
+    "eslint-config-next": "13.4.19",
+    "next": "13.4.19",
+    "react": "18.2.0",
+    "react-currency-input-field": "^3.6.11",
+    "react-dom": "18.2.0",
+    "react-slick": "^0.29.0",
+    "styled-components": "^6.0.5",
+    "typescript": "5.2.2"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "5.16.4",
+    "@testing-library/react": "14.0.0",
+    "@testing-library/user-event": "14.4.3",
+    "@types/react": "18.2.21",
+    "@types/react-dom": "18.2.7",
+    "@types/react-slick": "^0.23.10",
+    "vercel": "^32.1.0"
+  }
+}

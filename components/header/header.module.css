@@ -1,0 +1,136 @@
+.header-wrapper {
+    background: linear-gradient(191deg, #4195D5 -45.71%, #3279AE 20.59%, #26628E 46.93%, #133F5D 106.93%);
+    height: 100vh;
+    position: relative;
+}
+
+.header-wrapper header {
+    display: flex;   
+    justify-content: space-between;
+    margin-top: 69px;
+    align-items: center;
+}
+
+/* Header Text Section  */
+.header-wrapper header section:nth-child(1) {
+    color: #fff;
+}
+
+.header-wrapper header section:nth-child(1) h2 {
+    font-size: 31px;
+    font-weight: 400;
+    line-height: 46.5px;
+    margin-bottom: 8px;
+}
+
+.header-wrapper header section:nth-child(1) h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 84px;
+}
+
+/* Form Section */
+
+.header-wrapper header section:nth-child(2) div:first-child {
+    border-radius: 10px;
+    border: 3px solid rgba(46, 114, 164, 0.65);
+    background: linear-gradient(111deg, rgba(255, 255, 255, 0.62) -2.1%, rgba(255, 255, 255, 0.00) 105.01%);
+    backdrop-filter: blur(12px);
+    display: flex;
+    padding: 16px;
+    position: relative;
+    z-index: 99;
+}
+
+.header-wrapper header section:nth-child(2) div:first-child form {
+    display: flex;
+    width: 540px;
+    padding: 30px 24px;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.header-wrapper header section:nth-child(2) div:first-child form h1 {
+    text-align: center;
+}
+
+.header-wrapper header section:nth-child(2) div:first-child form label {
+    margin-top: 24px;
+}
+
+.header-wrapper header section:nth-child(2) div:first-child form input {
+    border: none;
+    border-bottom: 1px solid #EAEDEF;
+    height: 42px;
+    font-size: 24px;
+    color: #4199D5;
+    outline: none;
+    padding: 5px 10px;
+    margin-top: 4px;
+}
+
+.header-wrapper header section:nth-child(2) div:first-child form .no-border-bottom{
+    border-bottom: none !important;
+}
+
+.header-wrapper header section:nth-child(2) div:first-child form input::placeholder {
+    color: #C2CDD5;
+}
+
+.header-wrapper header section:nth-child(2) div:first-child form button {
+    background: #E0E4E7;
+    border-radius: 100px;
+    padding: 12px 20px;
+    width: 214px;
+    color:#9AA6B0;
+    border: none;
+    font-size: 16px;
+    margin: 24px auto 0;
+}
+
+.header-wrapper header section:nth-child(2) div:first-child form button.active {
+    background-color: #93C854;
+    color: #fff;
+}
+
+/* Aurora Background */
+.aurora-background {
+    position: absolute;
+    top: -150px;
+    left: -870px;
+    z-index: -99;
+}
+
+@media screen and (max-width: 500px) {
+    .header-wrapper header {
+        flex-direction: column;
+    }
+    .header-wrapper header section:nth-child(1) h1 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+    .header-wrapper header section:nth-child(1) h2 {
+        font-size: 20px;
+        line-height: 40px;
+        line-height: 30px;
+    }
+    .header-wrapper header section:nth-child(2) div:first-child {
+        border-radius: 10px;
+        border: 3px solid rgba(46, 114, 164, 0.65);
+        background: linear-gradient(111deg, rgba(255, 255, 255, 0.62) -2.1%, rgba(255, 255, 255, 0.00) 105.01%);
+        backdrop-filter:unset;
+        display: flex;
+        padding: 16px;
+        position: relative;
+        z-index: 99;
+    }
+    .header-wrapper header section:nth-child(2) div:first-child form {
+        width: 100%;
+        padding: 30px 24px;
+        flex-direction: column;
+        border-radius: 10px;
+        background-color: #fff;
+    }
+}

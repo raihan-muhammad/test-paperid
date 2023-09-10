@@ -1,0 +1,43 @@
+<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="facebook-icon">
+<g id="Group">
+<g id="Group_2">
+<g id="Group_3">
+<g id="Group_4">
+<g id="Clip path group">
+<mask id="mask0_1_83689" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="25" height="25">
+<g id="SVGID_2_">
+<path id="Vector" d="M25 0H0V25H25V0Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_1_83689)">
+<g id="Group_5">
+<g id="Clip path group_2">
+<mask id="mask1_1_83689" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="25" height="25">
+<g id="SVGID_4_">
+<path id="Vector_2" d="M25 0H0V25H25V0Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask1_1_83689)">
+<path id="Vector_3" d="M12.5019 0.457397C5.85044 0.457397 0.457031 5.85081 0.457031 12.5022C0.457031 19.1536 5.85044 24.5471 12.5019 24.5471C19.1533 24.5471 24.5467 19.1536 24.5467 12.5022C24.5421 5.85081 19.1533 0.457397 12.5019 0.457397Z" stroke="white" stroke-miterlimit="10"/>
+</g>
+</g>
+<g id="Clip path group_3">
+<mask id="mask2_1_83689" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="25" height="25">
+<g id="SVGID_4__2">
+<path id="Vector_4" d="M25 0H0V25H25V0Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask2_1_83689)">
+<path id="Vector_5" d="M16.1034 7.93681H14.7996C13.7703 7.93681 13.5782 8.43087 13.5782 9.13992V10.7181H16.0256L15.7054 13.1884H13.5782V19.3641H11.0256V13.1884H8.89844V10.7181H11.0256V8.90205C11.0256 6.78402 12.3202 5.64038 14.2049 5.64038C15.1061 5.64038 15.8838 5.69985 16.1034 5.73187V7.93681Z" fill="white"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>

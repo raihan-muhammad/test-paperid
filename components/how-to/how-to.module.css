@@ -1,0 +1,63 @@
+
+.how-to-section {
+    margin-bottom: 60px;
+}
+.how-to-section > h1 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 54px;
+}
+
+.how-to-section :global(.slick-slider) {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    overflow-y: hidden;
+    margin-top: 84px;
+    justify-content: space-between;
+}
+
+.how-to-section :global(.slick-dots){
+    list-style: none;
+}
+
+.how-to-section :global(.slick-dots) li div {
+    border-radius: 10px;
+    padding: 22px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 17px;
+    cursor: pointer;
+    align-items: center;
+    width: 546px;
+}
+
+.how-to-section :global(.slick-dots) div h1 {
+    font-size: 48px;
+    margin-right: 20px;
+}
+
+.how-to-section :global(.slick-dots) div p {
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.how-to-section :global(.slick-dots) :global(.slick-active) div {
+    background-color: #4199D5;
+    color: #fff;
+}
+
+.how-to-section :global(.slick-slide) {
+    display: flex;
+    justify-content: end;
+    outline: none;
+}
+
+@media screen and (max-width: 500px) {
+    .how-to-section > h1 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+}

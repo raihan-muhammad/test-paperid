@@ -1,0 +1,54 @@
+.benefit-section {
+    padding: 96px 0 164px 0;
+}
+
+.benefit-section section {
+    position: relative;
+}
+
+.benefit-section > h1 {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 58px;
+}
+.benefit-section > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.benefit-section > div > section > div {
+    display: flex;
+    margin-top: 48px;
+}
+
+.benefit-section > div > section >  div h1 {
+    margin-left: 16px;
+    font-size: 26px;
+    margin-bottom: 14px;
+}
+
+.benefit-section > div > section >  div p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #133F5D;
+    width: 75%;
+    margin-left: 16px;
+    line-height: 30px;
+}
+
+.line {
+    width: 3px;
+    height: 395px;
+    background: #EAEDEF;
+    position: absolute;
+    left: 23px;
+    z-index: -8;
+    top: 10px;
+}
+
+@media screen and (min-width: 1550px) {
+    .line {
+        height: 313px;
+    }
+}

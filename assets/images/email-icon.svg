@@ -1,0 +1,18 @@
+<svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="email-icon 1" clip-path="url(#clip0_1_83557)">
+<g id="g14">
+<path id="path4" opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M13.625 8.49997V10.0484C13.625 11.0806 12.875 11.9838 11.75 12.1129C11.75 12.1129 2 12.1129 1.875 12.1129C1.125 11.8548 0.625 11.3387 0.375 10.5645C1.5 9.53223 1.875 8.629 3.875 8.629C5.5 8.49997 5.875 9.53223 7.5 9.40319C9.125 9.27416 10 6.82255 12.625 7.85481C13 7.98384 13.375 8.2419 13.625 8.49997Z" fill="white"/>
+<g id="g12">
+<g id="g8">
+<path id="path6" d="M3.125 12.1129C2.375 12.1129 2 12.1129 2 12.1129C1.125 11.8548 0.625 11.3387 0.375 10.5645C0.375 10.4355 0.25 10.1774 0.25 10.0484V2.9516C0.25 1.79031 1.125 0.887089 2.25 0.758057H11.5C12.625 0.758057 13.625 1.66128 13.625 2.9516V9.91935C13.625 10.9516 12.875 11.8548 11.75 11.9839C11.75 11.9839 8.125 11.9839 6.5 11.9839" stroke="white" stroke-width="0.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<path id="polyline10" d="M0.375 2.95166L7.125 7.08069L13.625 3.08069" stroke="white" stroke-width="0.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_1_83557">
+<rect width="14" height="12" fill="white" transform="translate(0 0.5)"/>
+</clipPath>
+</defs>
+</svg>

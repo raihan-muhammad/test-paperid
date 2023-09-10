@@ -1,0 +1,21 @@
+@keyframes bounce {
+    30% {
+        transform: translateY(90%);
+    }
+    70% {
+        transform: translateY(0%);
+    }
+}
+
+.text-interaction {
+    display: flex;
+    justify-content: center;
+    color:  #C2CDD5;
+    margin-top: 24px;
+    align-items: center;
+    animation: bounce 2.5s infinite forwards;
+}
+
+.text-interaction p {
+    margin-left: 8px;
+}

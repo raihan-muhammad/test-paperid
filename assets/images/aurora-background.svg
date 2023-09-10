@@ -1,0 +1,48 @@
+<svg width="1612" height="1073" viewBox="0 0 1612 1073" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style type="text/css" >
+      <![CDATA[
+        @keyframes bounceDown {
+            30% {
+                transform: translateY(20%);
+            }
+            70% {
+                transform: translateY(0%);
+            }
+        }
+
+        @keyframes bounceUp {
+            30% {
+                transform: translateY(-30%);
+            }
+            70% {
+                transform: translateY(0%);
+            }
+        }
+
+        .circle-blue {
+            animation: bounceDown 7s ease-in-out infinite forwards;
+        }
+        .circle-green {
+            animation: bounceUp 7s ease-in-out infinite forwards;
+        }
+      ]]>
+  </style>
+<g filter="url(#filter0_f_1_49111)" class="circle-blue">
+<circle cx="1332" cy="302" r="100" fill="#B3E9FF"/>
+</g>
+<g filter="url(#filter1_f_1_49111)" class="circle-green">
+<circle cx="940" cy="582" r="100" fill="#97CC56"/>
+</g>
+<defs>
+<filter id="filter0_f_1_49111" x="1052" y="22" width="560" height="560" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="90" result="effect1_foregroundBlur_1_49111"/>
+</filter>
+<filter id="filter1_f_1_49111" x="660" y="302" width="560" height="560" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="90" result="effect1_foregroundBlur_1_49111"/>
+</filter>
+</defs>
+</svg>

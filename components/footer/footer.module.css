@@ -1,0 +1,175 @@
+.footer-wrapper{
+    background: linear-gradient(125deg, #257AB4 0.44%, #113955 96.26%, #113955 96.27%);
+    height: 1140px;
+    padding-top: 70px;
+}
+
+.footer-wrapper .register-wrapper{
+    display: flex;
+    align-items: center;
+    height: 377px;
+    margin-bottom: 75px;
+}
+.footer-wrapper .register-wrapper img{
+    height: 313px;
+    width: 314px;
+    margin-right: 88px;
+}
+.footer-wrapper .register-wrapper h2{
+    color: #FFF;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 59px; 
+    margin-bottom: 37px;
+    width: 70%;
+}
+.footer-wrapper .register-wrapper button{
+    background-color: #93C854;
+    color: #fff;
+    border: none;
+    border-radius: 100px;
+    padding: 12px 27px;
+    font-size: 14px;
+}
+footer .contact-wrapper img{
+    width: 157px;
+    height: 56px;
+    margin-bottom: 15px;
+}
+footer .contact-wrapper section{
+    display: flex;
+}
+footer .contact-list p{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    line-height: 150%;
+}
+.contact-list{
+    display: flex;
+    width: 204px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.contact-list .contact-item img{
+    width: 15px;
+    height: 15px;
+    margin-right: 7px;
+    margin-top: 5px;
+}
+.contact-list .contact-item{
+    display: flex;
+}
+.contact-list .contact-item p{
+    font-weight: 400;
+}
+.operational-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.operational-wrapper .operational-item{
+    display: flex;
+    width: 266px;
+    justify-content: space-between;
+}
+.operational-wrapper p{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    line-height: 150%;
+}
+.navigator-wrapper{
+    padding: 21px 0;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.60);
+    display: flex;
+    justify-content: space-between;
+}
+.navigator-wrapper p{
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 7px;
+    line-height: 150%;
+}
+.navigator-wrapper .navigator-item .list-wrapper ul:nth-child(2){
+    margin-left: 30px;
+}
+.navigator-wrapper .navigator-item .list-wrapper ul{
+    list-style: none;
+    color: #fff;
+}
+.navigator-wrapper .navigator-item{
+    margin-left: 21px;
+}
+.navigator-wrapper .navigator-item .list-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.navigator-wrapper .navigator-item li{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-weight: 400;
+    line-height: 150%;
+}
+.navigator-wrapper .navigator-list{
+    display: flex;
+}
+footer .download-wrapper{
+    display: flex;
+    justify-content: center;
+    padding: 21px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.60);;
+}
+footer .download-wrapper p{
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    line-height: 150%;
+}
+footer .download-wrapper .icon-wrapper{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    justify-content: center;
+}
+footer .download-wrapper .download-item{
+    margin-right: 28px;
+}
+footer .download-wrapper img:nth-child(2){
+    margin-right: 5px;
+    margin-left: 13px;
+}
+footer .notes-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 21px 0;
+}
+footer .notes-wrapper .copyright{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 150%;
+}
+footer .notes-wrapper .sosmed-icon img{
+    width: 25px;
+    height: 25px;
+    margin-right: 25px;
+}
+footer .notes-wrapper .privacy-wrapper{
+    display: flex;
+}
+footer .notes-wrapper .privacy-wrapper p:nth-child(2){
+    margin:0 35px;
+}
+footer .notes-wrapper .privacy-wrapper p{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 150%;
+}

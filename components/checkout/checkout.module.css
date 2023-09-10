@@ -1,0 +1,118 @@
+
+.checkout-section {
+    background-color: #F7FBFD;
+    padding: 190px 0 190px 0;
+}
+
+.checkout-section section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.checkout-section > section .title {
+    text-align: left;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 54px;
+    width: 50%;
+}
+
+.checkout-section :global(.slick-slider) {
+    width: 600px;
+    overflow-x: hidden;
+}
+
+.checkout-section > section :global(.slick-track){
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+/* Active Card */
+
+.checkout-section :global(.slick-active) .card-checkout {
+    width: 325px !important;
+    opacity: 1;
+    outline: none;
+}
+
+.checkout-section :global(.slick-active) .card-checkout img {
+    width: 277px;
+    height: 200px;
+}
+
+.checkout-section :global(.slick-active) .card-checkout h1 {
+    font-size: 24px;
+}
+
+.checkout-section :global(.slick-active) .card-checkout div p {
+    font-size: 20px;
+}
+
+.checkout-section .card-checkout {
+    width: 217px;
+    background-color: #fff;
+    padding: 24px;
+    border-radius: 8px;
+    outline: none;
+    opacity: .4;
+    box-shadow: 0px 0px 16px 0px rgba(63, 86, 103, 0.10);
+}
+
+.checkout-section .card-checkout h1 {
+    font-size: 13px;
+    text-align: left;
+    margin-top: 16px;
+    margin-bottom: 18px;
+}
+
+.checkout-section .card-checkout div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.checkout-section .card-checkout img {
+    width: 169px;
+    height: 110px;
+}
+
+.checkout-section .card-checkout div p {
+    font-size: 12px;
+    color: #4195D5;
+}
+
+.card-checkout .button-bayar {
+    display: flex;
+    justify-content: center;
+}
+
+.card-checkout .button-bayar button {
+    border-radius: 100px;
+    background-color: #93C854;
+    border: none;
+    width: 169px;
+    height: 40px;
+    margin-top: 32px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.checkout-section .card-checkout div > div button {
+    background-color: transparent;
+    border: 1px solid #ECEFF1;
+    width: 20px;
+}
+.checkout-section .card-checkout div > div input {
+    width: 50px;
+    height: 20px;   
+    text-align: center; 
+    border: 1px solid #ECEFF1;
+    outline: none;
+}
+
+.checkout-section .card-checkout div > div input::placeholder {
+    padding-left: 15px;
+}
+
